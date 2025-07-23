@@ -15,9 +15,6 @@ let package = Package(
 	targets: [
 		.target(
 			name: "SwiftCheck"),
-		.testTarget(
-			name: "SwiftCheckTests",
-			dependencies: ["SwiftCheck", "FileCheck"]),
 	]
 )
 
